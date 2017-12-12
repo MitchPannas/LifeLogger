@@ -1,4 +1,7 @@
-# Detailed Description of the Problem
+# Life Logger Application
+The main task was to create a .NET applicaiton in C# that would allow a user to add and view events which are plotted onto a map.
+
+## Detailed Description of the Problem
 
 Task 01: The first task is to consider the events shown in the example SOAP xml file, from there add several more events following the same formatting and layout. Adding in at least 20 events and ensuring that at least two of them are a track log. 
 

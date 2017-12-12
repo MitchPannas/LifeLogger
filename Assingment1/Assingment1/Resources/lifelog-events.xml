@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2001/12/soap-envelope" SOAP-ENV:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+  <SOAP-ENV:Body xmlns:lle="http://www.xyz.org/lifelogevents">
+    <lle:Event>
+      <lle:eventid>ID1</lle:eventid>
+      <lle:tweet>
+        <lle:text>Here in my garage</lle:text>
+        <lle:location>
+          <lle:lat>017</lle:lat>
+          <lle:long>911</lle:long>
+        </lle:location>
+        <lle:datetimestamp>11/11/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID2</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>At the shop</lle:text>
+        <lle:location>
+          <lle:lat>456</lle:lat>
+          <lle:long>654</lle:long>
+        </lle:location>
+        <lle:datetimestamp>08/08/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID3</lle:eventid>
+      <lle:photo>
+        <lle:filepath>/photos/image.jpg</lle:filepath>
+        <lle:location>
+          <lle:lat>041</lle:lat>
+          <lle:long>211</lle:long>
+        </lle:location>
+      </lle:photo>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID4</lle:eventid>
+      <lle:tracklog>
+        <lle:filepath>/tracklog/track.gpx</lle:filepath>
+        <lle:data>500,500,620,450</lle:data>
+        <lle:start-time>
+          <lle:datetimestamp>10:45am 12/11/2017</lle:datetimestamp>
+        </lle:start-time>
+        <lle:end-time>
+          <lle:datetimestamp>11:00am 12/11/2017</lle:datetimestamp>
+        </lle:end-time>
+      </lle:tracklog>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID5</lle:eventid>
+      <lle:tracklog>
+        <lle:filepath>/tracklog/track2.gpx</lle:filepath>
+        <lle:data>891,891,770,570</lle:data>
+        <lle:start-time>
+          <lle:datetimestamp>12:45pm 13/11/2017</lle:datetimestamp>
+        </lle:start-time>
+        <lle:end-time>
+          <lle:datetimestamp>13:45pm 13/11/2017</lle:datetimestamp>
+        </lle:end-time>
+      </lle:tracklog>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID6</lle:eventid>
+      <lle:tweet>
+        <lle:text>At my grandsons bday :)</lle:text>
+        <lle:location>
+          <lle:lat>911</lle:lat>
+          <lle:long>211</lle:long>
+        </lle:location>
+        <lle:datetimestamp>05/07/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID7</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Going to look at a car today</lle:text>
+        <lle:location>
+          <lle:lat>591</lle:lat>
+          <lle:long>112</lle:long>
+        </lle:location>
+        <lle:datetimestamp>09/01/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID8</lle:eventid>
+      <lle:photo>
+        <lle:filepath>/photos/image2.jpg</lle:filepath>
+        <lle:location>
+          <lle:lat>612</lle:lat>
+          <lle:long>322</lle:long>
+        </lle:location>
+      </lle:photo>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID9</lle:eventid>
+      <lle:video>
+        <lle:filepath>/videos/film2.mp4</lle:filepath>
+        <lle:location>
+          <lle:lat>112</lle:lat>
+          <lle:long>612</lle:long>
+        </lle:location>
+        <lle:start-time>
+          <lle:datetimestamp>13:45pm 14/11/2017</lle:datetimestamp>
+        </lle:start-time>
+        <lle:end-time>
+          <lle:datetimestamp>13:47pm 14/11/2017</lle:datetimestamp>
+        </lle:end-time>
+      </lle:video>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID10</lle:eventid>
+      <lle:tweet>
+        <lle:text>Somethign something twitter</lle:text>
+        <lle:location>
+          <lle:lat>811</lle:lat>
+          <lle:long>811</lle:long>
+        </lle:location>
+        <lle:datetimestamp>01/01/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID11</lle:eventid>
+      <lle:tweet>
+        <lle:text>New phone today</lle:text>
+        <lle:location>
+          <lle:lat>222</lle:lat>
+          <lle:long>223</lle:long>
+        </lle:location>
+        <lle:datetimestamp>02/02/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID12</lle:eventid>
+      <lle:tweet>
+        <lle:text>Crazy man down the street</lle:text>
+        <lle:location>
+          <lle:lat>031</lle:lat>
+          <lle:long>333</lle:long>
+        </lle:location>
+        <lle:datetimestamp>03/03/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID13</lle:eventid>
+      <lle:tweet>
+        <lle:text>I think I like facebook better</lle:text>
+        <lle:location>
+          <lle:lat>432</lle:lat>
+          <lle:long>234</lle:long>
+        </lle:location>
+        <lle:datetimestamp>04/04/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID14</lle:eventid>
+      <lle:tweet>
+        <lle:text>Shared a youtube video: www.youtube.com/watch?</lle:text>
+        <lle:location>
+          <lle:lat>911</lle:lat>
+          <lle:long>211</lle:long>
+        </lle:location>
+        <lle:datetimestamp>05/05/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID15</lle:eventid>
+      <lle:tweet>
+        <lle:text>Nice lunch with a nice view</lle:text>
+        <lle:location>
+          <lle:lat>234</lle:lat>
+          <lle:long>791</lle:long>
+        </lle:location>
+        <lle:datetimestamp>06/06/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID16</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Lovely day with my friends</lle:text>
+        <lle:location>
+          <lle:lat>123</lle:lat>
+          <lle:long>128</lle:long>
+        </lle:location>
+        <lle:datetimestamp>07/07/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID17</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Daughters birthday today</lle:text>
+        <lle:location>
+          <lle:lat>222</lle:lat>
+          <lle:long>900</lle:long>
+        </lle:location>
+        <lle:datetimestamp>11/08/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID18</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Listening to some music at home</lle:text>
+        <lle:location>
+          <lle:lat>121</lle:lat>
+          <lle:long>912</lle:long>
+        </lle:location>
+        <lle:datetimestamp>09/09/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID19</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Kmart has some nice vacuums</lle:text>
+        <lle:location>
+          <lle:lat>312</lle:lat>
+          <lle:long>491</lle:long>
+        </lle:location>
+        <lle:datetimestamp>10/10/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID20</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Going to pickup daughter from airport</lle:text>
+        <lle:location>
+          <lle:lat>356</lle:lat>
+          <lle:long>854</lle:long>
+        </lle:location>
+        <lle:datetimestamp>11/11/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID21</lle:eventid>
+      <lle:photo>
+        <lle:filepath>/photos/image3.jpg</lle:filepath>
+        <lle:location>
+          <lle:lat>042</lle:lat>
+          <lle:long>112</lle:long>
+        </lle:location>
+      </lle:photo>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID22</lle:eventid>
+      <lle:video>
+        <lle:filepath>/videos/film3.mp4</lle:filepath>
+        <lle:location>
+          <lle:lat>700</lle:lat>
+          <lle:long>612</lle:long>
+        </lle:location>
+        <lle:start-time>
+          <lle:datetimestamp>7:45am 13/01/2017</lle:datetimestamp>
+        </lle:start-time>
+        <lle:end-time>
+          <lle:datetimestamp>7:48am 13/01/2017</lle:datetimestamp>
+        </lle:end-time>
+      </lle:video>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID23</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Staying at a nice place with family</lle:text>
+        <lle:location>
+          <lle:lat>336</lle:lat>
+          <lle:long>634</lle:long>
+        </lle:location>
+        <lle:datetimestamp>25/08/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID24</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>Daughter has gone away to Europe</lle:text>
+        <lle:location>
+          <lle:lat>900</lle:lat>
+          <lle:long>123</lle:long>
+        </lle:location>
+        <lle:datetimestamp>26/08/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID25</lle:eventid>
+      <lle:video>
+        <lle:filepath>/videos/film.mp4</lle:filepath>
+        <lle:location>
+          <lle:lat>311</lle:lat>
+          <lle:long>113</lle:long>
+        </lle:location>
+        <lle:start-time>
+          <lle:datetimestamp>9:00am 25/08/2017</lle:datetimestamp>
+        </lle:start-time>
+        <lle:end-time>
+          <lle:datetimestamp>9:03am 25/08/2017</lle:datetimestamp>
+        </lle:end-time>
+      </lle:video>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID26</lle:eventid>
+      <lle:tweet>
+        <lle:text>This is a new tweet</lle:text>
+        <lle:location>
+          <lle:lat>414</lle:lat>
+          <lle:long>403</lle:long>
+        </lle:location>
+        <lle:datetimestamp>08/08/2017</lle:datetimestamp>
+      </lle:tweet>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID27</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>New facebook event</lle:text>
+        <lle:location>
+          <lle:lat>302</lle:lat>
+          <lle:long>298</lle:long>
+        </lle:location>
+        <lle:datetimestamp>09/09/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID28</lle:eventid>
+      <lle:photo>
+        <lle:filepath>/home/pictures/mynewpic.jpg</lle:filepath>
+        <lle:location>
+          <lle:lat>508</lle:lat>
+          <lle:long>335</lle:long>
+        </lle:location>
+      </lle:photo>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID29</lle:eventid>
+      <lle:video>
+        <lle:filepath>/home/videos/hey.mp3</lle:filepath>
+        <lle:location>
+          <lle:lat>594</lle:lat>
+          <lle:long>571</lle:long>
+        </lle:location>
+        <lle:start-time>
+          <lle:datetimestamp>7:17am 09/09/2017</lle:datetimestamp>
+        </lle:start-time>
+        <lle:end-time>
+          <lle:datetimestamp>7:18am 09/09/2017</lle:datetimestamp>
+        </lle:end-time>
+      </lle:video>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID30</lle:eventid>
+      <lle:tracklog>
+        <lle:filepath>/home/logs/tracklog4.gpx</lle:filepath>
+        <lle:data>113,900,250,900</lle:data>
+        <lle:start-time>
+          <lle:datetimestamp>10:45am 12/11/2017</lle:datetimestamp>
+        </lle:start-time>
+        <lle:end-time>
+          <lle:datetimestamp>10:46am 12/11/2017</lle:datetimestamp>
+        </lle:end-time>
+      </lle:tracklog>
+    </lle:Event>
+    <lle:Event>
+      <lle:eventid>ID31</lle:eventid>
+      <lle:facebook-status-update>
+        <lle:text>hi</lle:text>
+        <lle:location>
+          <lle:lat>310</lle:lat>
+          <lle:long>386</lle:long>
+        </lle:location>
+        <lle:datetimestamp>09/09/2017</lle:datetimestamp>
+      </lle:facebook-status-update>
+    </lle:Event>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

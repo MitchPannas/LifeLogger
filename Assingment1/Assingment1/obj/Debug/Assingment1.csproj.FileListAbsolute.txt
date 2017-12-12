@@ -1,0 +1,11 @@
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\bin\Debug\Assingment1.exe.config
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\bin\Debug\Assingment1.exe
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\bin\Debug\Assingment1.pdb
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.csprojResolveAssemblyReference.cache
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.Form1.resources
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.Properties.Resources.resources
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.csproj.GenerateResource.Cache
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.csproj.CoreCompileInputs.cache
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.exe
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.pdb
+E:\Uni_2017\Sem_2\ICT365\Assingment_1\Assingment1\Assingment1\obj\Debug\Assingment1.Form2.resources
